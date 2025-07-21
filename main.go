@@ -18,7 +18,7 @@ func main() {
 			fmt.Println("Ваши попытки закончились. Вы число не угадали.")
 			break
 		}
-		var maybe int // возможное число, число попыток
+		var maybe int // возможное число
 		fmt.Printf("Попытка %d.\n", attempt)
 		fmt.Print("Ваш вариант: ")
 		fmt.Scan(&maybe)
